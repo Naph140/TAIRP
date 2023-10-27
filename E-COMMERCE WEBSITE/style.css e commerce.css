@@ -1,0 +1,106 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and text color */
+body {
+    background-color: rgba(168, 35, 35, 0.1);
+    font-family: Arial, sans-serif;
+    color: #170303;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #3121d5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main content container */
+#content {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #1aff00;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Product listings */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 1.2rem;
+}
+
+.product p {
+    font-size: 1rem;
+}
+
+/* Shopping cart styling */
+#cart {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#cart th, #cart td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#cart th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #555;
+}
+
+
+
